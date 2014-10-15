@@ -861,6 +861,7 @@ padding-bottom: 14px;
 
 .irsbnr{
 background: url(/include/images/bgbnr.jpg) 50% 0% no-repeat;
+height: 610px;
 }
 .irsbnr .blbnr{
 width: 540px;
@@ -890,13 +891,26 @@ font-weight: normal;
 color: #ffffff;
 }
 .irsbnr .cs04{
-padding-top: 95px;
+padding-top: 20px;
 padding-bottom: 170px;
 }
 .irsbnr .form-reg{text-align: center; margin: 0px;}
 .irsbnr .container{
-background: url(/include/images/bglic.png) 0% 100% no-repeat;
+/*background: url(/include/images/bglic.png) 0% 100% no-repeat;*/
 }
 
 .irsss{margin-bottom: 0px;}
 
+#first_form  input {
+	display: block;
+	width: 285px;
+	margin: 10px auto;
+	height: 30px;
+}
+
+.irsbnr img {
+	display: block;
+	width: 380px;
+margin-top: 71px;
+
+}

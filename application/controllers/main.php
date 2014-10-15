@@ -77,7 +77,21 @@ class Main extends CI_Controller {
 		}
 		
 	}
+	public function first_order(){
+		$name= $this->input->post('name1');
+		$email= $this->input->post('email1');
+		$phone= $this->input->post('phone1');
+		$config['mailtype'] = 'text';
+		$this->email->initialize($config);
 
+		$this->email->clear();
+	    $this->email->to('melnichenco70@mail.ru, semenzuev777@gmail.com');
+	    $this->email->from('info@upsale21.ru');
+	    $this->email->subject('Зарегистрировались!');
+	    $this->email->message("Привет!\nЗарегался:\nИмя: ".$name."\nАдрес: ".$email."\nТелефон: ".$phone."");
+	    $this->email->send();
+	    redirect('/', 'refresh');
+	}
 	public function download_test(){
 		$this->load->helper(array('form', 'url'));
 		$this->load->library('form_validation');

@@ -52,14 +52,29 @@
  
  <div class="irsbnr"> 
  <div class="container">
-	<div class="blbnr">
-	<div class="cs01">“Гарантирую, Вы построите отдел продаж <br/>за 6 недель!”</div>
-	<div class="cs02">Коучинговый проект по построению <br/>и автоматизации отдела продаж </div>
-	<div class="cs03">от бизнес-консультанта Елены Мельниченко.</div>
-	<div class="cs04">
-	    <form class="form-reg"><button type="submit" class="btn-danger" id="reg_button" onClick="document.location.href='#registration'" id="registration">ПРИНЯТЬ УЧАСТИЕ</button></form>
-	</div>	 
-	</div>
+  <div class="blbnr">
+  <div class="cs01">“Гарантирую, Вы построите отдел продаж <br/>за 6 недель!”</div>
+  <div class="cs02">Коучинговый проект по построению <br/>и автоматизации отдела продаж </div>
+  <div class="cs03">от бизнес-консультанта Елены Мельниченко.</div>
+  <div class="cs04">
+
+      <form class="form-reg" id="first_form" action="/index.php/main/first_order" method="post">
+        <fieldset>
+          <div class="control-group"  id="first_name">
+           <input type="text" placeholder="Введите ваше имя" name="name1" >
+          </div>
+          <div class="control-group" id="first_email">
+            <input type="text" placeholder="Введите ваш email" name="email1" >
+          </div>
+          <div class="control-group" id="first_phone">
+            <input type="text" placeholder="Введите ваш номер телефона" name="phone1" >
+          </div>
+          <button type="submit" class="btn btn-danger" id="reg_button">ПРИНЯТЬ УЧАСТИЕ</button>
+        </fieldset>
+      </form>
+  </div>   
+  </div>
+  <img src="/include/images/bglic.png">
  </div>
  </div>
  
