@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Елена Мельниченко</title>
+<link rel="stylesheet" type="text/css" href="/include/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/include/css/our_style.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="/include/js/bootstrap.min.js"></script>
+<script src="/include/js/script.js"></script>
+<script src="/include/js/jquery.bxslider.min.js"></script>
+<script src="/include/js/validation/jquery.validate.min.js"></script>
+<script src="/include/js/form.js"></script>
+<script>
+	 $('#myModal').modal('hide');
+
+	 function collapsElement(id) {
+		 if ( document.getElementById(id).style.display != "none" ) {
+		 document.getElementById(id).style.display = 'none';
+		 
+
+		 }
+		 else {
+		 document.getElementById(id).style.display = '';
+		  document.getElementsByClassName('bx-viewport').style.minHeight = 350;
+		 }
+	 }
+ </script>
+
+
+
+
+<!-- bxSlider CSS file -->
+<link rel="stylesheet" type="text/css" href="/include/css/jquery.bxslider.css">
+<script src="/include/js/resp_carousel.js"></script>
+    
+    <script type="text/javascript"> 
+	     $("#registration > button").click(function(){ 
+			elementClick = $(this).attr("href");
+			destination = $(elementClick).offset().top;
+
+			$("html,body").stop().animate({scrollTop: destination},2000, "easeInOutExpo",function(){
+				window.location.hash = elementClick;
+			});
+
+			return false;
+	     });
+    </script> 
+     
+</head>
+<body>
