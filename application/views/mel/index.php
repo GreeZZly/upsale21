@@ -297,7 +297,7 @@
           <div class="row-fluid">
             <div class="span9 reg_button2 margin_down">
               <!-- <form class="form-reg">  -->
-              <a href="/include/files/bonus2.pdf" target="_blank"><button type="submit" class="btn-danger" id="trenning_programm">БОНУС</button>  </a>
+              <a href="/include/files/bonus3.pdf" target="_blank"><button type="submit" class="btn-danger" id="trenning_programm">БОНУС</button>  </a>
               <!-- </form> -->
             </div> 
           </div>
