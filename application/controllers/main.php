@@ -88,7 +88,7 @@ class Main extends CI_Controller {
 	    $this->email->to('melnichenco70@mail.ru, semenzuev777@gmail.com');
 	    $this->email->from('info@upsale21.ru');
 	    $this->email->subject('Зарегистрировались!');
-	    $this->email->message("Привет!\nЗарегался:\nИмя: ".$name."\nАдрес: ".$email."\nТелефон: ".$phone."");
+	    $this->email->message("Привет!\nЗарегистрировался:\nИмя: ".$name."\nАдрес: ".$email."\nТелефон: ".$phone."");
 	    $this->email->send();
 	    redirect('/', 'refresh');
 	}
