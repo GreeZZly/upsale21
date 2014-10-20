@@ -69,7 +69,7 @@
           <div class="control-group" id="first_phone">
             <input type="text" placeholder="Введите ваш номер телефона" name="phone1" >
           </div>
-          <button type="submit" class="btn btn-danger" id="reg_button">ПРИНЯТЬ УЧАСТИЕ</button>
+          <button type="submit" class="btn btn-danger" id="reg_button">ОСТАВИТЬ ЗАЯВКУ</button>
         </fieldset>
       </form>
   </div>   
