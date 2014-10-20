@@ -79,7 +79,7 @@ class Main extends CI_Controller {
 	}
 	public function first_order(){
 		$name= $this->input->post('name1');
-		$email= $this->input->post('email1');
+		// $email= $this->input->post('email1');
 		$phone= $this->input->post('phone1');
 		$config['mailtype'] = 'text';
 		$this->email->initialize($config);
@@ -88,7 +88,7 @@ class Main extends CI_Controller {
 	    $this->email->to('melnichenco70@mail.ru, semenzuev777@gmail.com');
 	    $this->email->from('info@upsale21.ru');
 	    $this->email->subject('Зарегистрировались!');
-	    $this->email->message("Привет!\nЗарегистрировался:\nИмя: ".$name."\nАдрес: ".$email."\nТелефон: ".$phone."");
+	    $this->email->message("Привет!\nЗарегистрировался:\nИмя: ".$name."\nТелефон: ".$phone."");
 	    $this->email->send();
 	    redirect('/', 'refresh');
 	}

@@ -53,9 +53,9 @@
  <div class="irsbnr"> 
  <div class="container">
   <div class="blbnr">
-  <div class="cs01">“Гарантирую, Вы построите отдел продаж <br/>за 6 недель!”</div>
-  <div class="cs02">Коучинговый проект по построению <br/>и автоматизации отдела продаж </div>
-  <div class="cs03">от бизнес-консультанта Елены Мельниченко.</div>
+  <div class="cs01">“Добрый день!<br/>Меня зовут Елена Мельниченко. <br>Я увеличу Ваши продажи.”</div><br>
+  <!-- <div class="cs02">Коучинговый проект по построению <br/>и автоматизации отдела продаж </div> -->
+  <div class="cs03">Оставьте заявку на бесплатную консультацию.</div>
   <div class="cs04">
 
       <form class="form-reg" id="first_form" action="/index.php/main/first_order" method="post">
@@ -63,9 +63,9 @@
           <div class="control-group"  id="first_name">
            <input type="text" placeholder="Введите ваше имя" name="name1" >
           </div>
-          <div class="control-group" id="first_email">
+          <!-- <div class="control-group" id="first_email">
             <input type="text" placeholder="Введите ваш email" name="email1" >
-          </div>
+          </div> -->
           <div class="control-group" id="first_phone">
             <input type="text" placeholder="Введите ваш номер телефона" name="phone1" >
           </div>
